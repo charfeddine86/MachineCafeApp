@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MachineCafe.DataModel\MachineCafe.DataModel.csproj" />
+    <ProjectReference Include="..\MachineCafeDAL\MachineCafe.DAL.csproj" />
+  </ItemGroup>
+
+</Project>
